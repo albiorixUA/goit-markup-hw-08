@@ -1,204 +1,482 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WebStudio">
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/main.min.css">
-  </head>
-  <body>
-   <header class="header">
-      <div class="container">
-        <a href="" class="header__logo"> <span class="header__logo--blue">Web</span>Studio</a>
-        <nav>
-          <ul class="site-nav">
-            <li class="site-nav__list " ><a href="./index.html" class="site-nav__link">Студия</a></li>
-            <li class="site-nav__list "><a href="" class="site-nav__current-link site-nav__current-link--underline-portfolio  ">Портфолио</a></li>
-            <li class="site-nav__list " ><a href="" class="site-nav__link">Контакты</a></li>
-          </ul>
-        </nav>
-        <p class="main-addres">
-          <a href="mailto:info@devstudio.com" class="main-addres__link main-addres__link--color">
-            <svg class="main-addres__icon-nav" width="16" height="12">
-              <use href="./images/symbol-defs.svg#icon-envelope"></use>
-            </svg>
-            info@devstudio.com</a
-          >
-          <a href="tel:+380961111111" class="main-addres__link main-addres__link--color">
-            <svg class="main-addres__icon-nav" width="16" height="12">
-              <use href="./images/symbol-defs.svg#icon-tel"></use>
-            </svg>
-            +38 096 111 11 11
-          </a>
-        </p>
-      </div>
-    </header>
-    <main>
-      <section class="portfolio-section">
-        <div class="container">
-          <h1 class="visually-hidden">Фильтр</h1>
-          <ul class="portfolio-section__filter">
-            <li class="portfolio-section__filter-list"><button type="button" class="filter-button">Все</button></li>
-            <li class="portfolio-section__filter-list"><button type="button" class="filter-button">Веб-сайты</button></li>
-            <li class="portfolio-section__filter-list"><button type="button" class="filter-button">Приложения</button></li>
-            <li class="portfolio-section__filter-list"><button type="button" class="filter-button">Дизайн</button></li>
-            <li class="portfolio-section__filter-list"><button type="button" class="filter-button">Маркетинг</button></li>
-          </ul>
-          <h2 class="visually-hidden">Список портфолио</h2>
-          <ul class="portfolio__list">
-            <li class="portfolio__iteam">
-              <div class="portfolio__overlay">
-                <img src="./images/p1.jpg"  alt="пример веб-сайта" width="370" height="294" />
-              <p class="text-overlay">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
-              </div>
-              <div class="portfolio__text">
-              <h3 class="portfolio__title">Технокряк</h3>
-              <p class="portfolio__description">Веб-сайт</p>
-              
-             </div>
-            </li>
-             <li class="portfolio__iteam">
-               <div class="portfolio__overlay">
-              <img
-                src="./images/p2.jpg"
-                alt="пример постера с баскетболистами"
-                width="370"
-                height="294"
-              />
-              <p class="text-overlay">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
-             </div>
-              <div class="portfolio__text">
-              <h3 class="portfolio__title">Постер New Orlean vs Golden Star</h3>
-              <p class="portfolio__description">Дизайн</p>
-              </div>
-            </li>
-            <li class="portfolio__iteam">
-              <div class="portfolio__overlay">
-              <img  src="./images/p3.jpg" alt="лого ресторана Seafood" width="370" height="294" />
-               <p class="text-overlay">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
-             </div>
-               <div class="portfolio__text">
-                 <h3 class="portfolio__title">Ресторан Seafood</h3>
-              <p class="portfolio__description">Приложения</p>
-              </div>
-            </li>
-             <li class="portfolio__iteam">
-                  <div class="portfolio__overlay">
-              <img src="./images/p4.jpg" alt="наушники" width="370" height="294" />
-              <p class="text-overlay">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
-              </div>
-              <div class="portfolio__text"> <h3 class="portfolio__title">Проект Prime</h3>
-              <p class="portfolio__description">Маркетинг</p></div>
-            </li>
-             <li class="portfolio__iteam">
-               <div class="portfolio__overlay">
-              <img src="./images/p5.jpg" alt="две коробки" width="370" height="294" />
-              <p class="text-overlay">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
-              </div>
-              <div class="portfolio__text"><h3 class="portfolio__title">Проект Boxes</h3>
-              <p class="portfolio__description">Приложения</p></div>
-            </li>
-             <li class="portfolio__iteam">
-                <div class="portfolio__overlay">
-                <img src="./images/p6.jpg" alt="imac" width="370" height="294" />
-                 <p class="text-overlay">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+    </head>
+    <body class="page">
+        <!-- HEADER -->
+        <header class="page-header">
+            <div class="container page-header__container">
+                <a lang="en" href="./index.html" class="logo page-header__logo">Web<span class="logo__label">Studio</span></a>
+                <button class="mobile-menu__toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+                    <svg class="mobile-menu__icon" width="40" height="40">
+                        <use href="./images/icons.svg#icon-menu"></use>
+                    </svg>
+                </button>
+                <nav class="site-nav">
+                    <ul class="site-nav__list list">
+                        <li class="site-nav__item"><a href="./index.html" class="link site-nav__link">Студия</a></li>
+                        <li class="site-nav__item"><a href="./portfolio.html" class="link site-nav__link site-nav__link--current">Портфолио</a></li>
+                        <li class="site-nav__item"><a href="#contacts" class="link site-nav__link">Контакты</a></li>
+                    </ul>
+                </nav>
+                <ul class="contacts page-header__contacts list">
+                    <li class="contacts__item">
+                        <a href="mailto:info@devstudio.com"
+                            class="contacts__link contacts__link--height link">
+                            <svg class="contacts__icon" width="16"
+                                height="12">
+                                <use href="./images/icons.svg#icon-envelope"></use>
+                            </svg>info@devstudio.com
+                        </a>
+                    </li>
+                    <li class="contacts__item">
+                        <a href="tel:+380961111111"
+                            class="contacts__link contacts__link--height link">
+                            <svg class="contacts__icon" width="10"
+                                height="16">
+                                <use href="./images/icons.svg#icon-smartphone"></use>
+                            </svg>+38 096 111 11 11
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <!-- ‡ HEADER -->
+        <main>
+            <!-- PORTFOLIO -->
+            <section class="section">
+                <div class="container">
+                    <h1 class="section__title visually-hidden">Портфоліо</h1>
+                    <ul class="filters list">
+                        <li class="filters__item"><button type="button" class="filters__button">Все</button></li>
+                        <li class="filters__item"><button type="button" class="filters__button">Веб-сайты</button></li>
+                        <li class="filters__item"><button type="button" class="filters__button">Приложения</button></li>
+                        <li class="filters__item"><button type="button" class="filters__button">Дизайн</button></li>
+                        <li class="filters__item"><button type="button" class="filters__button">Маркетинг</button></li>
+                    </ul>
+                    <ul class="portfolio list">
+                        <li class="portfolio__item">
+                            <a href="#" class="portfolio__link link">
+                                <div class="portfolio__card">
+                                    <picture>
+                                        <source
+                                            srcset="./images/desktop/portfolio/webp/work-1.webp 1x, ./images/desktop/portfolio/webp/work-1@2x.webp 2x, ./images/desktop/portfolio/webp/work-1@3x.webp 3x"
+                                            media="(min-width: 1200px)" type="image/webp">
+                                        <source
+                                            srcset="./images/desktop/portfolio/work-1.jpg 1x, ./images/desktop/portfolio/work-1@2x.jpg 2x, ./images/desktop/portfolio/work-1@3x.jpg 3x"
+                                            media="(min-width: 1200px)">
+                                        <source
+                                            srcset="./images/tablet/portfolio/webp/work-1.webp 1x, ./images/tablet/portfolio/webp/work-1@2x.webp 2x, ./images/tablet/portfolio/webp/work-1@3x.webp 3x"
+                                            media="(min-width: 768px)" type="image/webp">
+                                        <source
+                                            srcset="./images/tablet/portfolio/work-1.jpg 1x, ./images/tablet/portfolio/work-1@2x.jpg 2x, ./images/tablet/portfolio/work-1@3x.jpg 3x"
+                                            media="(min-width: 768px)">
+                                        <source
+                                            srcset="./images/mobile/portfolio/webp/work-1.webp 1x, ./images/mobile/portfolio/webp/work-1@2x.webp 2x, ./images/mobile/portfolio/webp/work-1@3x.webp 3x"
+                                            media="(max-width: 767px)" type="image/webp">
+                                        <source
+                                            srcset="./images/mobile/portfolio/work-1.jpg 1x, ./images/mobile/portfolio/work-1@2x.jpg 2x, ./images/mobile/portfolio/work-1@3x.jpg 3x"
+                                            media="(max-width: 767px)">
+                                        <img src="./images/mobile/portfolio/work-1.jpg" alt="laptop with three photos on the screen">
+                                    </picture>
+                                    <p class="portfolio__about-client">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore fugiat nisi ipsam! Rerum amet expedita ab voluptas, deleniti rem sed dolore voluptatibus facilis doloremque similique ipsam architecto sint atque mollitia!
+                                    Impedit dicta, ullam alias et optio maiores soluta dolorum! Ex consectetur rerum accusantium sapiente, sint, labore ratione doloribus rem quasi hic harum voluptates fuga odio eveniet? Qui saepe officia tempora.
+                                    </p>
+                                </div>
+                                <div class="portfolio__description">
+                                    <h2 class="portfolio__title">Технокряк</h2>
+                                    <p class="portfolio__work-type">Веб-сайт</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="portfolio__item">
+                            <a href="#" class="portfolio__link link">
+                                <div class="portfolio__card">
+                                    <picture>
+                                        <source
+                                            srcset="./images/desktop/portfolio/webp/work-2.webp 1x, ./images/desktop/portfolio/webp/work-2@2x.webp 2x, ./images/desktop/portfolio/webp/work-2@3x.webp 3x"
+                                            media="(min-width: 1200px)" type="image/webp">
+                                        <source
+                                            srcset="./images/desktop/portfolio/work-2.jpg 1x, ./images/desktop/portfolio/work-2@2x.jpg 2x, ./images/desktop/portfolio/work-2@3x.jpg 3x"
+                                            media="(min-width: 1200px)">
+                                        <source
+                                            srcset="./images/tablet/portfolio/webp/work-2.webp 1x, ./images/tablet/portfolio/webp/work-2@2x.webp 2x, ./images/tablet/portfolio/webp/work-2@3x.webp 3x"
+                                            media="(min-width: 768px)" type="image/webp">
+                                        <source
+                                            srcset="./images/tablet/portfolio/work-2.jpg 1x, ./images/tablet/portfolio/work-2@2x.jpg 2x, ./images/tablet/portfolio/work-2@3x.jpg 3x"
+                                            media="(min-width: 768px)">
+                                        <source
+                                            srcset="./images/mobile/portfolio/webp/work-2.webp 1x, ./images/mobile/portfolio/webp/work-2@2x.webp 2x, ./images/mobile/portfolio/webp/work-2@3x.webp 3x"
+                                            media="(max-width: 767px)" type="image/webp">
+                                        <source
+                                            srcset="./images/mobile/portfolio/work-2.jpg 1x, ./images/mobile/portfolio/work-2@2x.jpg 2x, ./images/mobile/portfolio/work-2@3x.jpg 3x"
+                                            media="(max-width: 767px)">
+                                        <img src="./images/mobile/portfolio/work-2.jpg" alt="two basketball players">
+                                    </picture>
+                                    <p class="portfolio__about-client">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore fugiat nisi ipsam! Rerum amet expedita ab voluptas, deleniti rem sed dolore voluptatibus facilis doloremque similique ipsam architecto sint atque mollitia!
+                                    Impedit dicta, ullam alias et optio maiores soluta dolorum! Ex consectetur rerum accusantium sapiente, sint, labore ratione doloribus rem quasi hic harum voluptates fuga odio eveniet? Qui saepe officia tempora.
+                                    </p>
+                                </div>
+                                <div class="portfolio__description">
+                                    <h2 class="portfolio__title">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
+                                    <p class="portfolio__work-type">Дизайн</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="portfolio__item">
+                            <a href="#" class="portfolio__link link">
+                                <div class="portfolio__card">
+                                    <picture>
+                                        <source
+                                            srcset="./images/desktop/portfolio/webp/work-3.webp 1x, ./images/desktop/portfolio/webp/work-3@2x.webp 2x, ./images/desktop/portfolio/webp/work-3@3x.webp 3x"
+                                            media="(min-width: 1200px)" type="image/webp">
+                                        <source
+                                            srcset="./images/desktop/portfolio/work-3.jpg 1x, ./images/desktop/portfolio/work-3@2x.jpg 2x, ./images/desktop/portfolio/work-3@3x.jpg 3x"
+                                            media="(min-width: 1200px)">
+                                        <source
+                                            srcset="./images/tablet/portfolio/webp/work-3.webp 1x, ./images/tablet/portfolio/webp/work-3@2x.webp 2x, ./images/tablet/portfolio/webp/work-3@3x.webp 3x"
+                                            media="(min-width: 768px)" type="image/webp">
+                                        <source
+                                            srcset="./images/tablet/portfolio/work-3.jpg 1x, ./images/tablet/portfolio/work-3@2x.jpg 2x, ./images/tablet/portfolio/work-3@3x.jpg 3x"
+                                            media="(min-width: 768px)">
+                                        <source
+                                            srcset="./images/mobile/portfolio/webp/work-3.webp 1x, ./images/mobile/portfolio/webp/work-3@2x.webp 2x, ./images/mobile/portfolio/webp/work-3@3x.webp 3x"
+                                            media="(max-width: 767px)" type="image/webp">
+                                        <source
+                                            srcset="./images/mobile/portfolio/work-3.jpg 1x, ./images/mobile/portfolio/work-3@2x.jpg 2x, ./images/mobile/portfolio/work-3@3x.jpg 3x"
+                                            media="(max-width: 767px)">
+                                        <img src="./images/mobile/portfolio/work-3.jpg" alt="fish with the inscription seafood restaurant">
+                                    </picture>
+                                    <p class="portfolio__about-client">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore fugiat nisi ipsam! Rerum amet expedita ab voluptas, deleniti rem sed dolore voluptatibus facilis doloremque similique ipsam architecto sint atque mollitia!
+                                    Impedit dicta, ullam alias et optio maiores soluta dolorum! Ex consectetur rerum accusantium sapiente, sint, labore ratione doloribus rem quasi hic harum voluptates fuga odio eveniet? Qui saepe officia tempora.
+                                    </p>
+                                </div>
+                                <div class="portfolio__description">
+                                    <h2 class="portfolio__title">Ресторан <span lang="en">Seafood</span></h2>
+                                    <p class="portfolio__work-type">Приложение</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="portfolio__item">
+                            <a href="#" class="portfolio__link link">
+                                <div class="portfolio__card">
+                                    <picture>
+                                        <source
+                                            srcset="./images/desktop/portfolio/webp/work-4.webp 1x, ./images/desktop/portfolio/webp/work-4@2x.webp 2x, ./images/desktop/portfolio/webp/work-4@3x.webp 3x"
+                                            media="(min-width: 1200px)" type="image/webp">
+                                        <source
+                                            srcset="./images/desktop/portfolio/work-4.jpg 1x, ./images/desktop/portfolio/work-4@2x.jpg 2x, ./images/desktop/portfolio/work-4@3x.jpg 3x"
+                                            media="(min-width: 1200px)">
+                                        <source
+                                            srcset="./images/tablet/portfolio/webp/work-4.webp 1x, ./images/tablet/portfolio/webp/work-4@2x.webp 2x, ./images/tablet/portfolio/webp/work-4@3x.webp 3x"
+                                            media="(min-width: 768px)" type="image/webp">
+                                        <source
+                                            srcset="./images/tablet/portfolio/work-4.jpg 1x, ./images/tablet/portfolio/work-4@2x.jpg 2x, ./images/tablet/portfolio/work-4@3x.jpg 3x"
+                                            media="(min-width: 768px)">
+                                        <source
+                                            srcset="./images/mobile/portfolio/webp/work-4.webp 1x, ./images/mobile/portfolio/webp/work-4@2x.webp 2x, ./images/mobile/portfolio/webp/work-4@3x.webp 3x"
+                                            media="(max-width: 767px)" type="image/webp">
+                                        <source
+                                            srcset="./images/mobile/portfolio/work-4.jpg 1x, ./images/mobile/portfolio/work-4@2x.jpg 2x, ./images/mobile/portfolio/work-4@3x.jpg 3x"
+                                            media="(max-width: 767px)">
+                                        <img src="./images/mobile/portfolio/work-4.jpg" alt="black big headphones">
+                                    </picture>
+                                    <p class="portfolio__about-client">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore fugiat nisi ipsam! Rerum amet expedita ab voluptas, deleniti rem sed dolore voluptatibus facilis doloremque similique ipsam architecto sint atque mollitia!
+                                    Impedit dicta, ullam alias et optio maiores soluta dolorum! Ex consectetur rerum accusantium sapiente, sint, labore ratione doloribus rem quasi hic harum voluptates fuga odio eveniet? Qui saepe officia tempora.
+                                    </p>
+                                </div>
+                                <div class="portfolio__description">
+                                    <h2 class="portfolio__title">Проект <span lang="en">Prime</span></h2>
+                                    <p class="portfolio__work-type">Маркетинг</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="portfolio__item">
+                            <a href="#" class="portfolio__link link">
+                                <div class="portfolio__card">
+                                    <picture>
+                                        <source
+                                            srcset="./images/desktop/portfolio/webp/work-5.webp 1x, ./images/desktop/portfolio/webp/work-5@2x.webp 2x, ./images/desktop/portfolio/webp/work-5@3x.webp 3x"
+                                            media="(min-width: 1200px)" type="image/webp">
+                                        <source
+                                            srcset="./images/desktop/portfolio/work-5.jpg 1x, ./images/desktop/portfolio/work-5@2x.jpg 2x, ./images/desktop/portfolio/work-5@3x.jpg 3x"
+                                            media="(min-width: 1200px)">
+                                        <source
+                                            srcset="./images/tablet/portfolio/webp/work-5.webp 1x, ./images/tablet/portfolio/webp/work-5@2x.webp 2x, ./images/tablet/portfolio/webp/work-5@3x.webp 3x"
+                                            media="(min-width: 768px)" type="image/webp">
+                                        <source
+                                            srcset="./images/tablet/portfolio/work-5.jpg 1x, ./images/tablet/portfolio/work-5@2x.jpg 2x, ./images/tablet/portfolio/work-5@3x.jpg 3x"
+                                            media="(min-width: 768px)">
+                                        <source
+                                            srcset="./images/mobile/portfolio/webp/work-5.webp 1x, ./images/mobile/portfolio/webp/work-5@2x.webp 2x, ./images/mobile/portfolio/webp/work-5@3x.webp 3x"
+                                            media="(max-width: 767px)" type="image/webp">
+                                        <source
+                                            srcset="./images/mobile/portfolio/work-5.jpg 1x, ./images/mobile/portfolio/work-5@2x.jpg 2x, ./images/mobile/portfolio/work-5@3x.jpg 3x"
+                                            media="(max-width: 767px)">
+                                        <img src="./images/mobile/portfolio/work-5.jpg" alt="two boxes, one white and one orange">
+                                    </picture>
+                                    <p class="portfolio__about-client">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore fugiat nisi ipsam! Rerum amet expedita ab voluptas, deleniti rem sed dolore voluptatibus facilis doloremque similique ipsam architecto sint atque mollitia!
+                                    Impedit dicta, ullam alias et optio maiores soluta dolorum! Ex consectetur rerum accusantium sapiente, sint, labore ratione doloribus rem quasi hic harum voluptates fuga odio eveniet? Qui saepe officia tempora.
+                                    </p>
+                                </div>
+                                <div class="portfolio__description">
+                                    <h2 class="portfolio__title">Проект <span lang="en">Boxes</span></h2>
+                                    <p class="portfolio__work-type">Приложение</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="portfolio__item">
+                            <a href="#" class="portfolio__link link">
+                                <div class="portfolio__card">
+                                    <picture>
+                                        <source
+                                            srcset="./images/desktop/portfolio/webp/work-6.webp 1x, ./images/desktop/portfolio/webp/work-6@2x.webp 2x, ./images/desktop/portfolio/webp/work-6@3x.webp 3x"
+                                            media="(min-width: 1200px)" type="image/webp">
+                                        <source
+                                            srcset="./images/desktop/portfolio/work-6.jpg 1x, ./images/desktop/portfolio/work-6@2x.jpg 2x, ./images/desktop/portfolio/work-6@3x.jpg 3x"
+                                            media="(min-width: 1200px)">
+                                        <source
+                                            srcset="./images/tablet/portfolio/webp/work-6.webp 1x, ./images/tablet/portfolio/webp/work-6@2x.webp 2x, ./images/tablet/portfolio/webp/work-6@3x.webp 3x"
+                                            media="(min-width: 768px)" type="image/webp">
+                                        <source
+                                            srcset="./images/tablet/portfolio/work-6.jpg 1x, ./images/tablet/portfolio/work-6@2x.jpg 2x, ./images/tablet/portfolio/work-6@3x.jpg 3x"
+                                            media="(min-width: 768px)">
+                                        <source
+                                            srcset="./images/mobile/portfolio/webp/work-6.webp 1x, ./images/mobile/portfolio/webp/work-6@2x.webp 2x, ./images/mobile/portfolio/webp/work-6@3x.webp 3x"
+                                            media="(max-width: 767px)" type="image/webp">
+                                        <source
+                                            srcset="./images/mobile/portfolio/work-6.jpg 1x, ./images/mobile/portfolio/work-6@2x.jpg 2x, ./images/mobile/portfolio/work-6@3x.jpg 3x"
+                                            media="(max-width: 767px)">
+                                        <img src="./images/mobile/portfolio/work-6.jpg" alt="monoblock apple with a dark image on the screen">
+                                    </picture>
+                                    <p class="portfolio__about-client">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore fugiat nisi ipsam! Rerum amet expedita ab voluptas, deleniti rem sed dolore voluptatibus facilis doloremque similique ipsam architecto sint atque mollitia!
+                                    Impedit dicta, ullam alias et optio maiores soluta dolorum! Ex consectetur rerum accusantium sapiente, sint, labore ratione doloribus rem quasi hic harum voluptates fuga odio eveniet? Qui saepe officia tempora.
+                                    </p>
+                                </div>
+                                <div class="portfolio__description">
+                                    <h2 lang="en" class="portfolio__title">Inspiration has no Borders</h2>
+                                    <p class="portfolio__work-type">Веб-сайт</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="portfolio__item">
+                            <a href="#" class="portfolio__link link">
+                                <div class="portfolio__card">
+                                    <picture>
+                                        <source
+                                            srcset="./images/desktop/portfolio/webp/work-7.webp 1x, ./images/desktop/portfolio/webp/work-7@2x.webp 2x, ./images/desktop/portfolio/webp/work-7@3x.webp 3x"
+                                            media="(min-width: 1200px)" type="image/webp">
+                                        <source
+                                            srcset="./images/desktop/portfolio/work-7.jpg 1x, ./images/desktop/portfolio/work-7@2x.jpg 2x, ./images/desktop/portfolio/work-7@3x.jpg 3x"
+                                            media="(min-width: 1200px)">
+                                        <source
+                                            srcset="./images/tablet/portfolio/webp/work-7.webp 1x, ./images/tablet/portfolio/webp/work-7@2x.webp 2x, ./images/tablet/portfolio/webp/work-7@3x.webp 3x"
+                                            media="(min-width: 768px)" type="image/webp">
+                                        <source
+                                            srcset="./images/tablet/portfolio/work-7.jpg 1x, ./images/tablet/portfolio/work-7@2x.jpg 2x, ./images/tablet/portfolio/work-7@3x.jpg 3x"
+                                            media="(min-width: 768px)">
+                                        <source
+                                            srcset="./images/mobile/portfolio/webp/work-7.webp 1x, ./images/mobile/portfolio/webp/work-7@2x.webp 2x, ./images/mobile/portfolio/webp/work-7@3x.webp 3x"
+                                            media="(max-width: 767px)" type="image/webp">
+                                        <source
+                                            srcset="./images/mobile/portfolio/work-7.jpg 1x, ./images/mobile/portfolio/work-7@2x.jpg 2x, ./images/mobile/portfolio/work-7@3x.jpg 3x"
+                                            media="(max-width: 767px)">
+                                        <img src="./images/mobile/portfolio/work-7.jpg" alt="open booklet with the inscription I'm Limited Edition">
+                                    </picture>
+                                    <p class="portfolio__about-client">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore fugiat nisi ipsam! Rerum amet expedita ab voluptas, deleniti rem sed dolore voluptatibus facilis doloremque similique ipsam architecto sint atque mollitia!
+                                    Impedit dicta, ullam alias et optio maiores soluta dolorum! Ex consectetur rerum accusantium sapiente, sint, labore ratione doloribus rem quasi hic harum voluptates fuga odio eveniet? Qui saepe officia tempora.
+                                    </p>
+                                </div>
+                                <div class="portfolio__description">
+                                    <h2 class="portfolio__title">Издание <span lang="en">Limited Edition</span></h2>
+                                    <p class="portfolio__work-type">Дизайн</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="portfolio__item">
+                            <a href="#" class="portfolio__link link">
+                                <div class="portfolio__card">
+                                    <picture>
+                                        <source
+                                            srcset="./images/desktop/portfolio/webp/work-8.webp 1x, ./images/desktop/portfolio/webp/work-8@2x.webp 2x, ./images/desktop/portfolio/webp/work-8@3x.webp 3x"
+                                            media="(min-width: 1200px)" type="image/webp">
+                                        <source
+                                            srcset="./images/desktop/portfolio/work-8.jpg 1x, ./images/desktop/portfolio/work-8@2x.jpg 2x, ./images/desktop/portfolio/work-8@3x.jpg 3x"
+                                            media="(min-width: 1200px)">
+                                        <source
+                                            srcset="./images/tablet/portfolio/webp/work-8.webp 1x, ./images/tablet/portfolio/webp/work-8@2x.webp 2x, ./images/tablet/portfolio/webp/work-8@3x.webp 3x"
+                                            media="(min-width: 768px)" type="image/webp">
+                                        <source
+                                            srcset="./images/tablet/portfolio/work-8.jpg 1x, ./images/tablet/portfolio/work-8@2x.jpg 2x, ./images/tablet/portfolio/work-8@3x.jpg 3x"
+                                            media="(min-width: 768px)">
+                                        <source
+                                            srcset="./images/mobile/portfolio/webp/work-8.webp 1x, ./images/mobile/portfolio/webp/work-8@2x.webp 2x, ./images/mobile/portfolio/webp/work-8@3x.webp 3x"
+                                            media="(max-width: 767px)" type="image/webp">
+                                        <source
+                                            srcset="./images/mobile/portfolio/work-8.jpg 1x, ./images/mobile/portfolio/work-8@2x.jpg 2x, ./images/mobile/portfolio/work-8@3x.jpg 3x"
+                                            media="(max-width: 767px)">
+                                        <img src="./images/mobile/portfolio/work-8.jpg" alt="white tag with the inscription Lab El Tag">
+                                    </picture>
+                                    <p class="portfolio__about-client">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore fugiat nisi ipsam! Rerum amet expedita ab voluptas, deleniti rem sed dolore voluptatibus facilis doloremque similique ipsam architecto sint atque mollitia!
+                                    Impedit dicta, ullam alias et optio maiores soluta dolorum! Ex consectetur rerum accusantium sapiente, sint, labore ratione doloribus rem quasi hic harum voluptates fuga odio eveniet? Qui saepe officia tempora.
+                                    </p>
+                                </div>
+                                <div class="portfolio__description">
+                                    <h2 class="portfolio__title">Проект <span lang="en">LAB</span></h2>
+                                    <p class="portfolio__work-type">Маркетинг</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="portfolio__item">
+                            <a href="#" class="portfolio__link link">
+                                <div class="portfolio__card">
+                                    <picture>
+                                        <source
+                                            srcset="./images/desktop/portfolio/webp/work-9.webp 1x, ./images/desktop/portfolio/webp/work-9@2x.webp 2x, ./images/desktop/portfolio/webp/work-9@3x.webp 3x"
+                                            media="(min-width: 1200px)" type="image/webp">
+                                        <source
+                                            srcset="./images/desktop/portfolio/work-9.jpg 1x, ./images/desktop/portfolio/work-9@2x.jpg 2x, ./images/desktop/portfolio/work-9@3x.jpg 3x"
+                                            media="(min-width: 1200px)">
+                                        <source
+                                            srcset="./images/tablet/portfolio/webp/work-9.webp 1x, ./images/tablet/portfolio/webp/work-9@2x.webp 2x, ./images/tablet/portfolio/webp/work-9@3x.webp 3x"
+                                            media="(min-width: 768px)" type="image/webp">
+                                        <source
+                                            srcset="./images/tablet/portfolio/work-9.jpg 1x, ./images/tablet/portfolio/work-9@2x.jpg 2x, ./images/tablet/portfolio/work-9@3x.jpg 3x"
+                                            media="(min-width: 768px)">
+                                        <source
+                                            srcset="./images/mobile/portfolio/webp/work-9.webp 1x, ./images/mobile/portfolio/webp/work-9@2x.webp 2x, ./images/mobile/portfolio/webp/work-9@3x.webp 3x"
+                                            media="(max-width: 767px)" type="image/webp">
+                                        <source
+                                            srcset="./images/mobile/portfolio/work-9.jpg 1x, ./images/mobile/portfolio/work-9@2x.jpg 2x, ./images/mobile/portfolio/work-9@3x.jpg 3x"
+                                            media="(max-width: 767px)">
+                                        <img src="./images/mobile/portfolio/work-9.jpg" alt="hands on a gray color laptop">
+                                    </picture>
+                                    <p class="portfolio__about-client">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore fugiat nisi ipsam! Rerum amet expedita ab voluptas, deleniti rem sed dolore voluptatibus facilis doloremque similique ipsam architecto sint atque mollitia!
+                                    Impedit dicta, ullam alias et optio maiores soluta dolorum! Ex consectetur rerum accusantium sapiente, sint, labore ratione doloribus rem quasi hic harum voluptates fuga odio eveniet? Qui saepe officia tempora.
+                                    </p>
+                                </div>
+                                <div class="portfolio__description">
+                                    <h2 lang="en" class="portfolio__title">Growing Business</h2>
+                                    <p class="portfolio__work-type">Приложение</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-                 <div class="portfolio__text"><h3 class="portfolio__title">Inspiration has no Borders</h3>
-              <p class="portfolio__description">Веб-сайт</p>
-            </li>
-             <li class="portfolio__iteam">
-               <div class="portfolio__overlay">
-              <img src="./images/p7.jpg" alt="журнал" width="370" height="294" />
-              <p class="text-overlay">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
-             </div>
-              <div class="portfolio__text"><h3 class="portfolio__title">Издание Limited Edition</h3>
-              <p class="portfolio__description">Дизайн</p>
-              </div>
-            </li>
-             <li class="portfolio__iteam">
-               <div class="portfolio__overlay">
-              <img src="./images/p8.jpg" alt="бейдж с лого" width="370" height="294" />
-               <p class="text-overlay">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
-              </div>
-               <div class="portfolio__text"><h3 class="portfolio__title">Проект LAB</h3>
-              <p class="portfolio__description">Маркетинг</p>
-              </div>
-            </li>
-             <li class="portfolio__iteam">
-               <div class="portfolio__overlay">
-              <img  src="./images/p9.jpg" alt="ноутбук" width="370" height="294" />
-             <p class="text-overlay">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
-              </div>
-             <div class="portfolio__text"><h3 class="portfolio__title">Growing Business</h3>
-              <p class="portfolio__description">Приложения</p>
-              </div>
-            </li>
-          </ul>
-          </div>
-      </section>
-    </main>
-   <footer class="footer">
-      <div class="container">
-        <div class="footer__content">
-          <div class="footer__contact">
-            <a href="" class="footer__logo"><span class="footer__logo--blue">Web</span>Studio</a>
-            <address>
-              <ul class="footer__contact-list">
-                <li><a href="" class="footer__contact-addres">г. Киев, пр-т Леси Украинки, 26</a></li>
-                <li><a href="" class="footer__contact-mail">info@example.com</a></li>
-                <li><a href="" class="footer__contact-tel">+38 099 111 11 11</a></li>
-              </ul>
-            </address>
-          </div>
-          <div class="join">
-            <h3 class="join__title">Присоединяйтесь</h3>
-            <ul class="join__list">
-              <li class="join__list-element">
-                <a class="join__list-icon" href="">
-                <svg width="20" height="20">
-                  <use href="./images/symbol-defs.svg#icon-instagram"></use>
+            </section>
+        </main>
+        <!-- ‡ PORTFOLIO -->
+        <!-- FOOTER -->
+        <footer class="page-footer">
+            <div class="container page-footer__container">
+                <div class="page-footer__contacts" id="contacts">
+                    <a lang="en" href="./index.html" class="page-footer__logo--position logo">Web<span
+                            class="logo__label--inverse">Studio</span></a>
+                    <address class="page-footer__address"><a class="link page-footer__link" href="https://goo.gl/maps/zS1xnshHH64RWqHC6" target="_blank" rel="noopener">г. Киев,
+                        пр-т Леси Украинки, 26</a></address>
+                    <ul class="contacts__list list">
+                        <li class="contacts__item contacts__item--position"><a href="mailto:info@devstudio.com"
+                                class="contacts__link contacts__link--grey link">info@devstudio.com</a></li>
+                        <li class="contacts__item contacts__item--position"><a href="tel:+380991111111"
+                                class="contacts__link contacts__link--grey link">+38 099 111 11 11</a></li>
+                    </ul>
+                </div>
+                <div class="page-footer__social-contacts">
+                    <b class="page-footer__welcome-text">присоединяйтесь</b>
+                    <ul class="social-contacts list">
+                        <li class="social-contacts__item social-contacts__item--position">
+                            <a class="social-contacts__link link" href="#">
+                                <svg class="social-contacts__icon" width="20" height="20">
+                                    <use href="./images/icons.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-contacts__item social-contacts__item--position">
+                            <a class="social-contacts__link link" href="#">
+                                <svg class="social-contacts__icon" width="20" height="20">
+                                    <use href="./images/icons.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-contacts__item social-contacts__item--position">
+                            <a class="social-contacts__link link" href="#">
+                                <svg class="social-contacts__icon" width="20" height="20">
+                                    <use href="./images/icons.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-contacts__item social-contacts__item--position">
+                            <a class="social-contacts__link link" href="#">
+                                <svg class="social-contacts__icon" width="20" height="20">
+                                    <use href="./images/icons.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="page-footer__form">
+                    <b class="page-footer__welcome-text">Подпишитесь на рассылку</b>
+                    <form name="subscribe" class="subscribe">
+                        <input type="email" name="email" placeholder="E-mail" required class="subscribe__field">
+                        <button class="subscribe__button" type="submit">Подписаться
+                            <svg class="subscribe__icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-send"></use>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </footer>
+        <!-- ‡ FOOTER -->
+        <!-- MOBILE MENU -->
+        <div class="mobile-menu js-menu-container" id="mobile-menu">
+            <button class="mobile-menu__toggle js-close-menu">
+                <svg class="mobile-menu__icon" width="19" height="19">
+                    <use href="./images/icons.svg#icon-close"></use>
                 </svg>
-              </a>
-              </li>
-              <li class="join__list-element">
-                 <a class="join__list-icon" href="">
-                <svg width="20" height="20">
-                  <use href="./images/symbol-defs.svg#icon-twitter"></use>
-                </svg>
-              </a>
-              </li>
-            <li class="join__list-element">
-              <a class="join__list-icon" href=" "
-                ><svg  width="20" height="20">
-                  <use href="./images/symbol-defs.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="join__list-element">
-              <a class="join__list-icon" href=""
-                ><svg  width="20" height="20">
-                  <use href="./images/symbol-defs.svg#icon-linkedin"></use>
-                </svg>
-              </a>
-            </li>
+            </button>
+            <ul class="nav-list list">
+                <li class="nav-list__item"><a href="./index.html"
+                        class="link mobile-menu__link">Студия</a></li>
+                <li class="nav-list__item"><a href="./portfolio.html" class="link mobile-menu__link mobile-menu__link--current">Портфолио</a></li>
+                <li class="nav-list__item"><a href="#contacts" class="link mobile-menu__link">Контакты</a></li>
             </ul>
-          </div>
+            <ul class="mobile-contacts list">
+                <li class="mobile-contacts__item"><a href="tel:+380961111111" class="mobile-contacts__link link">+38 096 111 11
+                        11</a></li>
+                <li class="mobile-contacts__item"><a href="mailto:info@devstudio.com"
+                        class="mobile-contacts__link link">info@devstudio.com</a></li>
+            </ul>
+            <ul class="mobile-social list">
+                <li class="mobile-social__item">
+                    <a class="mobile-social__link link" href="#">Instagram</a>
+                </li>
+                <li class="mobile-social__item">
+                    <a class="mobile-social__link link" href="#">Twitter</a>
+                </li>
+                <li class="mobile-social__item">
+                    <a class="mobile-social__link link" href="#">Facebook</a>
+                </li>
+                <li class="mobile-social__item">
+                    <a class="mobile-social__link link" href="#">LinkedIn</a>
+                </li>
+            </ul>
         </div>
-      </div>
-    </footer>
-  </body>
+        <!-- ‡ MOBILE MENU -->
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+            integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+            crossorigin="anonymous"></script>
+        <script src="./js/mobile-menu.js"></script>
+    </body>
 </html>

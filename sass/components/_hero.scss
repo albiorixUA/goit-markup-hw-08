@@ -1,0 +1,161 @@
+/* -- HERO -- */
+.hero-section {
+  max-width: 1600px;
+  padding-top: 118px;
+  padding-bottom: 118px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: var(--secondary-background-color);
+  background-image: linear-gradient(
+      to right,
+      var(--hero-gradient-color),
+      var(--hero-gradient-color)
+    ),
+    url('../images/mobile/hero/background.jpg ');
+
+  text-align: center;
+
+  @media screen and (min-width: $desktop-size) {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+}
+@media (min-device-pixel-ratio: 2) and (max-width: (($tablet-size)-1px)),
+  (min-resolution: 192dpi) and (max-width: (($tablet-size)-1px)),
+  (min-resolution: 2dppx) and (max-width: (($tablet-size)-1px)) {
+  .hero-section {
+    background-image: linear-gradient(
+        to right,
+        var(--hero-gradient-color),
+        var(--hero-gradient-color)
+      ),
+      url('../images/mobile/hero/background@2x.jpg');
+  }
+}
+@media (min-device-pixel-ratio: 3) and (max-width: (($tablet-size)-1px)),
+  (min-resolution: 288dpi) and (max-width: (($tablet-size)-1px)),
+  (min-resolution: 3dppx) and (max-width: (($tablet-size)-1px)) {
+  .hero-section {
+    background-image: linear-gradient(
+        to right,
+        var(--hero-gradient-color),
+        var(--hero-gradient-color)
+      ),
+      url('../images/mobile/hero/background@3x.jpg');
+  }
+}
+@media screen and (min-width: $tablet-size) {
+  .hero-section {
+    background-image: linear-gradient(
+        to right,
+        var(--hero-gradient-color),
+        var(--hero-gradient-color)
+      ),
+      url('../images/tablet/hero/background.jpg');
+  }
+}
+@media (min-device-pixel-ratio: 2) and (min-width: $tablet-size),
+  (min-resolution: 192dpi) and (min-width: $tablet-size),
+  (min-resolution: 2dppx) and (min-width: $tablet-size) {
+  .hero-section {
+    background-image: linear-gradient(
+        to right,
+        var(--hero-gradient-color),
+        var(--hero-gradient-color)
+      ),
+      url('../images/tablet/hero/background@2x.jpg');
+  }
+}
+@media (min-device-pixel-ratio: 3) and (min-width: $tablet-size),
+  (min-resolution: 288dpi) and (min-width: $tablet-size),
+  (min-resolution: 3dppx) and (min-width: $tablet-size) {
+  .hero-section {
+    background-image: linear-gradient(
+        to right,
+        var(--hero-gradient-color),
+        var(--hero-gradient-color)
+      ),
+      url('../images/tablet/hero/background@3x.jpg');
+  }
+}
+@media screen and (min-width: $desktop-size) {
+  .hero-section {
+    background-image: linear-gradient(
+        to right,
+        var(--hero-gradient-color),
+        var(--hero-gradient-color)
+      ),
+      url('../images/desktop/hero/background.jpg');
+  }
+}
+@media (min-device-pixel-ratio: 2) and (min-width: $desktop-size),
+  (min-resolution: 192dpi) and (min-width: $desktop-size),
+  (min-resolution: 2dppx) and (min-width: $desktop-size) {
+  .hero-section {
+    background-image: linear-gradient(
+        to right,
+        var(--hero-gradient-color),
+        var(--hero-gradient-color)
+      ),
+      url('../images/desktop/hero/background@2x.jpg');
+  }
+}
+@media (min-device-pixel-ratio: 3) and (min-width: $desktop-size),
+  (min-resolution: 288dpi) and (min-width: $desktop-size),
+  (min-resolution: 3dppx) and (min-width: $desktop-size) {
+  .hero-section {
+    background-image: linear-gradient(
+        to right,
+        var(--hero-gradient-color),
+        var(--hero-gradient-color)
+      ),
+      url('../images/desktop/hero/background@3x.jpg');
+  }
+}
+.hero-section__title {
+  max-width: 360px;
+  margin-right: auto;
+  margin-bottom: var(--card-set-gap);
+  margin-left: auto;
+
+  color: var(--secondary-text-color);
+
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.62;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  @media screen and (min-width: $desktop-size) {
+    max-width: 696px;
+    font-size: 44px;
+    line-height: 1.36;
+  }
+}
+.hero-section__button {
+  padding: 10px 32px;
+
+  background-color: var(--accent-color);
+  color: var(--secondary-text-color);
+  border-radius: 4px;
+  border: none;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+
+  box-shadow: 0px 4px 4px var(--shadow-button);
+  cursor: pointer;
+
+  transition: background-color 250ms var(--timing-func);
+  &:hover,
+  &:focus {
+    background-color: var(--button-accent-background-color);
+  }
+}
+/* -- ‡ HERO -- */

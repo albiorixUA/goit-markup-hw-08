@@ -1,0 +1,76 @@
+/* -- CONTACTS -- */
+.contacts__link {
+  display: block;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+
+  transition: color 250ms var(--timing-func);
+
+  &--grey {
+    font-weight: 400;
+    color: var(--contacts-footer-text-color);
+  }
+  &--height {
+    padding: 0;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+
+    @media screen and (min-width: $tablet-size) {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+    @media screen and (min-width: $desktop-size) {
+      padding-top: 32px;
+      padding-bottom: 32px;
+
+      font-size: 14px;
+      line-height: 1.14;
+    }
+  }
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+
+  @media screen and (min-width: $desktop-size) {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+.contacts__icon {
+  margin-right: 10px;
+
+  fill: currentColor;
+
+  transition: fill 250ms var(--timing-func);
+
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+  }
+}
+.contacts__item {
+  &:not(:last-child) {
+    @media screen and (min-width: $desktop-size) {
+      margin-right: 30px;
+    }
+  }
+  &--position:first-child {
+    margin-right: 0;
+    margin-bottom: 9px;
+
+    @media screen and (max-width: (($desktop-size)-1px)) {
+      margin-bottom: 8px;
+    }
+  }
+  &--position:last-child {
+    margin-left: 0;
+  }
+}
+/* -- ‡ CONTACTS -- */

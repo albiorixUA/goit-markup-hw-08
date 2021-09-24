@@ -2,6 +2,9 @@
   padding-top: 94px;
   padding-bottom: 94px;
   color: var(--secondary-color);
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
 }
 
 .activity__title {

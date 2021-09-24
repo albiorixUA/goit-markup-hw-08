@@ -1,0 +1,33 @@
+/* -- SOCIAL CONTACTS -- */
+.social-contacts {
+  display: flex;
+  justify-content: center;
+  // flex-wrap: wrap;
+}
+.social-contacts__item--position:not(:last-child) {
+  margin-right: 10px;
+}
+.social-contacts__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 44px;
+  height: 44px;
+  border-radius: 50% 50%;
+
+  background-color: var(--icons-bacground-footer);
+  fill: var(--primary-background-color);
+
+  transition: background-color 250ms var(--timing-func),
+    fill 250ms var(--timing-func);
+  &--grey {
+    fill: var(--icons-border-color);
+  }
+  &:hover,
+  &:focus {
+    fill: var(--primary-background-color);
+    background-color: var(--accent-color);
+  }
+}
+/* -- ‡ SOCIAL CONTACTS -- */

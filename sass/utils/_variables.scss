@@ -1,11 +1,44 @@
+/* -- VARIABLES -- */
 :root {
-  --main-color: #ffffff;
-  --secondary-color: #212121;
-  --third-color: #2196f3;
-  --fourth-color: #757575;
-  --fifth-color: #000000;
-  --sixth-color: rgba(255, 255, 255, 0.6);
-  --seventh-color: #f5f4fa;
-  --icon-color: #afb1b8;
-  --fill: #2f303a;
+  --accent-color: #2196f3;
+  --card-set-gap: 30px;
+  --timing-func: cubic-bezier(0.4, 0, 0.2, 1);
+  /* -- VARIABLES  BORDER -- */
+  --border-bottom-color: #ececec;
+  --icons-border-color: #afb1b8;
+  --portfolio-description-border: #eeeeee;
+  --border-mobile-menu: rgba(33, 33, 33, 0.2);
+  /* -- ‡ VARIABLES  BORDER -- */
+  /* -- VARIABLES  SHADOW -- */
+  --shadow-team-card: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  --shadow-button-accent: 0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  --shadow-button: rgba(0, 0, 0, 0.15);
+  --shadow-portfolio-item: 0px 1px 1px rgba(0, 0, 0, 0.12),
+    0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  /* -- ‡ VARIABLES  SHADOW -- */
+  /* -- VARIABLES BACKGROUND COLOR -- */
+  --primary-background-color: #ffffff;
+  --secondary-background-color: #2f303a;
+  --third-background-color: #f5f4fa;
+  --button-accent-background-color: #188ce8;
+  --examples-description-background-color: rgba(47, 48, 58, 0.8);
+  --icons-bacground-footer: rgba(255, 255, 255, 0.1);
+  --hero-gradient-color: rgba(47, 48, 58, 0.4);
+  /* -- ‡ VARIABLES BACKGROUND COLOR -- */
+  /* -- VARIABLES TEXT COLOR -- */
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --secondary-text-color: #ffffff;
+  --contacts-footer-text-color: rgba(255, 255, 255, 0.6);
+  --logo-part-header-color: #000000;
+  --placeholder-text-color: rgba(117, 117, 117, 0.5);
+  /* -- ‡ VARIABLES TEXT COLOR -- */
 }
+/* -- VARIABLES DISPLAY SIZE -- */
+$mobile-size: 480px;
+$tablet-size: 768px;
+$desktop-size: 1200px;
+/* -- ‡ VARIABLES DISPLAY SIZE -- */
+/* -- ‡ VARIABLES -- */

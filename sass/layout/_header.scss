@@ -1,0 +1,38 @@
+/* -- HEADER -- */
+.page-header {
+  border-bottom: 1px solid var(--border-bottom-color);
+}
+.page-header__container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  line-height: 1.17;
+}
+.page-header__logo {
+  margin-right: auto;
+  @media screen and (min-width: $tablet-size) {
+    margin-right: 88px;
+  }
+
+  @media screen and (min-width: $desktop-size) {
+    margin-right: 93px;
+  }
+}
+.page-header__contacts {
+  display: none;
+
+  @media screen and (min-width: $tablet-size) {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    margin-left: auto;
+  }
+
+  @media screen and (min-width: $desktop-size) {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+/* -- ‡ HEADER -- */

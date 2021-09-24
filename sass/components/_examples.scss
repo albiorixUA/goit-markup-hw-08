@@ -1,0 +1,44 @@
+/* -- EXAMPLES OF WORKS -- */
+.examples-section {
+  padding-top: 0;
+  padding-bottom: 0;
+  @media screen and (max-width: ($desktop-size)-1) {
+    display: none;
+  }
+}
+.examples-section__list {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-top: calc(-1 * var(--card-set-gap));
+  margin-left: calc(-1 * var(--card-set-gap));
+}
+.examples-section__item {
+  position: relative;
+  flex-basis: calc(100% / 3 - var(--card-set-gap));
+
+  margin-top: var(--card-set-gap);
+  margin-bottom: 94px;
+  margin-left: var(--card-set-gap);
+}
+.examples-section__description {
+  position: absolute;
+  bottom: 0;
+
+  width: 100%;
+
+  padding: 27px 82px;
+  margin: 0;
+
+  background-color: var(--examples-description-background-color);
+  color: var(--secondary-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* -- ‡ EXAMPLES OF WORKS -- */

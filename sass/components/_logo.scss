@@ -1,0 +1,27 @@
+/* -- SITE LOGO -- */
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+
+  @media screen and (max-width: (($tablet-size)-1px)) {
+    padding: 16px 0;
+  }
+  @media screen and (min-width: $desktop-size) {
+    font-size: 26px;
+    line-height: 1.19;
+  }
+}
+.logo__label {
+  color: var(--logo-part-header-color);
+  &--inverse {
+    color: var(--secondary-text-color);
+  }
+}
+
+/* -- ‡ SITE LOGO -- */

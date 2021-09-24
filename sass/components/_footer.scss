@@ -1,8 +1,19 @@
-.footer {
+.footer .container {
   background-color: var(--fill);
-  padding-top: 60px;
-  padding-bottom: 60px;
   @include font(400, 14px, 1.71);
+
+  @media screen and (max-width: 767px) {
+    display: block;
+  }
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-bottom: 0;
+  }
 }
 
 .footer__contact-mail {
@@ -53,4 +64,9 @@
 
 .footer__content {
   display: flex;
+
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+    margin: 0 auto;
+  }
 }
