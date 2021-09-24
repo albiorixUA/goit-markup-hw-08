@@ -1,0 +1,101 @@
+.header__logo {
+  margin-right: 93px;
+  color: var(--fifth-color);
+  font-family: Raleway;
+  @include font(700, 26px, 1.19);
+}
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
+}
+.header__logo--blue {
+  color: var(--third-color);
+}
+
+.site-nav__current-link {
+  color: var(--third-color);
+  position: relative;
+}
+
+.site-nav__current-link--underline-studiya {
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 45px;
+    width: 48px;
+    height: 4px;
+    border-radius: 2px;
+    background: var(--third-color);
+  }
+}
+
+.site-nav__current-link--underline-portfolio {
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 45px;
+    width: 76px;
+    height: 4px;
+    border-radius: 2px;
+    background: var(--third-color);
+  }
+}
+
+.site-nav,
+.main-addres {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  margin: 0;
+  padding: 0;
+}
+
+.site-nav__link {
+  color: var(--secondary-color);
+  transition: 250ms;
+  &:hover,
+  &:focus {
+    color: var(--third-color);
+  }
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+}
+.site-nav {
+  display: flex;
+}
+.site-nav__list {
+  margin-right: 50px;
+}
+.main-addres__link {
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
+}
+
+.main-addres__link--color {
+  transition: 250ms;
+  color: var(--fourth-color);
+  &:hover,
+  &:focus {
+    color: var(--third-color);
+  }
+}
+
+.main-addres {
+  margin-left: auto;
+}
+
+.main-addres__mail {
+  color: var(--fourth-color);
+}
+.main-addres__icon-nav {
+  margin-right: 10px;
+  fill: currentColor;
+}

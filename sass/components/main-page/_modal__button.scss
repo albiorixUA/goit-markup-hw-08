@@ -1,0 +1,20 @@
+.modal__button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  background-color: var(--main-color);
+  cursor: pointer;
+  &:hover .modal__button-icon {
+    fill: var(--third-color);
+  }
+}
+.modal__button-icon {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

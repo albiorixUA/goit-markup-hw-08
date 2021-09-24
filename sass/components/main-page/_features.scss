@@ -1,0 +1,37 @@
+.features {
+  padding-top: 94px;
+}
+
+.features__icon-worklist {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.features__main-list {
+  display: flex;
+}
+
+.features__title {
+  margin-bottom: 10px;
+  color: var(--secondary-color);
+  @include font(700, 14px, 1.14);
+  text-transform: uppercase;
+}
+.features__list {
+  width: 270px;
+  margin-right: 0px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.features__description {
+  color: var(--fourth-color);
+  @include font(400, 14px, 1.71);
+}
